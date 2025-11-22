@@ -1,0 +1,64 @@
+body {
+  background: linear-gradient(135deg, #cce0ff, #99c2ff);
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+.user-photo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.user-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #0d6efd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.label-readonly {
+  font-weight: 600;
+  color: #0d6efd;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.value-readonly {
+  padding: 10px 15px;
+  background-color: #e9ecef;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.section-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 15px;
+}
+
+.card-section {
+  margin-bottom: 20px;
+}
+
+.btn-edit {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.btn-edit:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
