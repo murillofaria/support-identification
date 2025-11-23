@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-j_ai_+^z17r8e!2#b=twqjwqx9v4dg31apx2x_egh(^r8xi2+8'
+SECRET_KEY = 'django-insecure-d-zc6^el%(=6s-_kywi%jpq3ws$-&z))lwz1%$(+%z4)jihj%^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'supportIdentification.apps.SupportidentificationConfig',
+    'supportIdentification'
 ]
 
 MIDDLEWARE = [
@@ -115,9 +115,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = '/static/'
-
-LOGIN_URL = 'login'
+STATIC_URL = 'static/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
