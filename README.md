@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/36f9831a-ce4f-433c-9853-428d03ad2637
   <li>Abra o terminal com <strong>CTRL + J</strong> e utilize o comando <strong>python manage.py runserver</strong> para iniciar a aplicação</li>
   <li>Segure o <strong>CTRL + Botão Esquerdo do Mouse</strong> e clique no http://127.0.0.1:8000/ que aparece em seu terminal na IDE ou digite manualmente no navegador</li>
   <li>Navegue nas rotas disponíveis da aplicação</li>
-  <li>Utilize o comando <strong>CTRL + ENTER</strong> para fechar a aplicação.</li>
+  <li>Utilize o comando <strong>CTRL + ENTER</strong> no terminal para fechar a aplicação.</li>
 </ol>
 
 ## 🌐 Rotas disponíveis para navegação
