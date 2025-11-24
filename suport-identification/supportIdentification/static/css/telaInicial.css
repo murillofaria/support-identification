@@ -1,0 +1,37 @@
+/* Paleta principal */
+:root {
+    --cor-preta: #000000;
+    --cor-azul-claro: #07B4BA;
+    --cor-azul-medio: #39D0CB;
+    --cor-cinza: #CFE3E1;
+    --cor-branca: #FFFFFF;
+}
+
+/* Fundo lateral */
+.bg-custom {
+    background-color: var(--cor-azul-claro);
+}
+
+/* Botões principais */
+.btn-custom {
+    background-color: var(--cor-azul-claro);
+    color: var(--cor-branca);
+    border: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: var(--cor-azul-medio);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .bg-custom {
+        display: none;
+    }
+}
+body {
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+}
+
